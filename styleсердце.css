@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .icon-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #color-changing-icon {
+    width: 100px;
+    height: 100px;
+    transition: transform 5s, filter 0.25s;
+  }
+  
+  #color-changing-icon:hover {
+    transform: scale(1.5);
+    filter: none;
+  }
+  

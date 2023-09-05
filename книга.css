@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.image-container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.image {
+  transform: translateY(
+    100%
+  ); /* Начальное положение: картинки находятся внизу */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.image-1 {
+  transform: rotate(-25deg);
+}
+
+.image-2 {
+  transform: rotate(-15deg);
+}
+
+.image-3 {
+  transform: rotate(15deg);
+}
+
+.image-4 {
+  transform: rotate(25deg);
+}
+
+.image-5 {
+  text-align: center;
+  transform: rotate(90deg);
+}
+
+.image-small {
+  padding-top: 55px;
+}
+
+.image-container {
+  position: relative;
+  animation: moveUp 3s ease-in-out infinite alternate; /* Применяем анимацию */
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image.image-1 .img,
+.image.image-2 .img,
+.image.image-3 .img,
+.image.image-4 .img,
+.image.image-5 .img {
+  animation: slideIn 2s forwards; /* Запускаем анимацию */
+  animation-delay: 0.5s; /* Задержка для последовательного появления картинок */
+}

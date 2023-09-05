@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  height: 60px;
+}
+
+.banner {
+  background-image: url(https://thumbs.dreamstime.com/b/landscape-nature-view-background-view-window-landscape-nature-view-background-view-window-wonderful-landscape-121459679.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.about-team {
+  display: flex;
+}
+
+.about-team-text,
+.about-team-img {
+    flex: 1;
+}

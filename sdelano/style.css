@@ -1,0 +1,51 @@
+.wrapper{
+        
+    background-image: url;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    
+    
+    margin: 100px;
+    padding: 10px;
+      
+}
+.child {
+    background-color: rgb(228, 107, 107);
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 420px;
+    top: -100px;
+    margin: 100px;
+   
+    
+}
+.image-container {
+    padding-left: 90px;
+    padding-top: 90px;
+    
+}
+
+.image-container2 {
+    padding-left: 90px;
+    padding-top: 90px;
+    
+}
+
+.image-container3 {
+    padding-left: 90px;
+    padding-top: 90px;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./pexels-eberhard-grossgasteiger-1612351.jpg') fixed no-repeat center center; 
+    background-size: cover;
+    
+}
